@@ -46,9 +46,23 @@ a {
     display: flex;
 }
 
+.bot {
+    display: flex;
+}
+
 img {
     height: auto;
     width: 300px;
+}
+
+.mid-body {
+    display: flex;
+    justify-content: center;
+}
+
+.mid-item img {
+    height: auto;
+    width: 100px;
 }
 
 .footer {
