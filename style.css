@@ -64,7 +64,7 @@ a {
 
 .text {
     font-size: 18px;
-    color: #8e8e8e;
+    color: #b8b8b8;
 }
 
 button {
@@ -142,6 +142,34 @@ img {
 
 .bot {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-body {
+    background: #3882F6;
+    width: 720px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 84px;
+    gap: 16px;
+    margin: 100px 0px;
+}
+
+.bot-content {
+    white-space: nowrap;
+}
+
+.bot .title {
+    font-size: 24px;
+    color: white;
+}
+
+.bot .sign-up-bot {
+    border: 2px solid white;
+    white-space: nowrap;
 }
 
 .footer {
